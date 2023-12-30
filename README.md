@@ -1,6 +1,9 @@
 ## 明光筑梦小程序
 ### ——儿童端
 ### 项目运行
+**This GitHub repository contains a complete frontend code section for the "uni-bright-light" project. While the "uni-bright-light" project has multiple frontend sections, this repository focuses on the child side.**
+**The project was subsequently archived at the end of 2023.**
+
 * 1.运行
 ```bash
 npm install
