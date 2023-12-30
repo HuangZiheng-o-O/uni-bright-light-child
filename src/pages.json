@@ -1,0 +1,131 @@
+{
+	"easycom": {
+		// 注意一定要放在custom里，否则无效，https://ask.dcloud.net.cn/question/131175
+		"custom": {
+			"^u--(.*)": "uview-plus/components/u-$1/u-$1.vue",
+			"^up-(.*)": "uview-plus/components/u-$1/u-$1.vue",
+			"^u-([^-].*)": "uview-plus/components/u-$1/u-$1.vue",
+			"^iui-(.*)": "iui-design/components/iui-$1/iui-$1.vue"
+		}
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"name": "home",
+			"style": {
+				"navigationBarTitleText": "任务"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"name": "login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/mission/submitMission",
+			"name": "submitMission",
+			"style": {
+				"navigationBarTitleText": "任务提交"
+			}
+		},
+		{
+			"path": "pages/credit/credit",
+			"name": "credit",
+			"style": {
+				"navigationBarTitleText": "积分商城"
+			}
+		},
+		{
+			"path": "pages/credit/itemDetail",
+			"name": "itemDetail",
+			"style": {
+				"navigationBarTitleText": "兑换物品"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"name": "my",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+			"path": "pages/test/test",
+			"name": "test",
+			"style": {
+				"navigationBarTitleText": "测试"
+			}
+		},
+		{
+			"path": "pages/order/orderDetail",
+			"name": "orderDetail",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/chat/chat",
+			"name": "chat",
+			"style": {
+				"navigationBarTitleText": "聊天"
+			}
+		},
+		{
+			"path": "pages/statistic/rankingList",
+			"name": "rankingList",
+			"style": {
+				"navigationBarTitleText": "情况统计"
+			}
+		},
+		{
+			"path": "pages/statistic/creditRanking",
+			"name": "creditRanking",
+			"style": {
+				"navigationBarTitleText": "积分排行榜"
+			}
+		},
+		{
+			"path": "pages/success/exchange",
+			"name": "exchange",
+			"style": {
+				"navigationBarTitleText": "交换成功"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#999",
+		"selectedColor": "#0aa671",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "任务"
+			},
+			{
+				"pagePath": "pages/credit/credit",
+				"text": "积分商城"
+			},
+			{
+				"pagePath": "pages/chat/chat",
+				"text": "聊天"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "个人中心"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"animationType": "fade-in",
+			"animationDuration": "300"
+		}
+	}
+}
